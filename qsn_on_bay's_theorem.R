@@ -26,3 +26,5 @@ TOTAL = (PDA*PA)+(PDB*PB)+(PDC*PC)
 # P(A|D) = P(D\A)P(A)/TOTAL PROBABILITY
 PAD = (PDA*PA)/TOTAL
 PAD = round(PAD,2) # For rounding off
+
+# we can also do it much easily using vectors.
