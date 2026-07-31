@@ -17,7 +17,6 @@ PC <- 0.25
 PDA <- 0.03
 PDB <- 0.02
 PDC <- 0.03
-
 # finding the total probability using total probability theorem. 
 
 TOTAL = (PDA*PA)+(PDB*PB)+(PDC*PC)
