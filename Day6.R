@@ -1,4 +1,5 @@
 x<-56
+
 #is.integer is used to check whether the number is of integer class
 
 # we have to use else statment just after the closing bracket of if (not leave a line)
