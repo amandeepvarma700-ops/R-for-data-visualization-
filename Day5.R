@@ -9,5 +9,6 @@ x <- c(TRUE, FALSE, TRUE)
 y <- c(TRUE, TRUE, FALSE)
 
 x & y
+x[1] && y[3];
 #& - > takes first element of the vector and if both are non-zero then it will return true
 #&& --> Ovearall output --> its meant for logical condition
