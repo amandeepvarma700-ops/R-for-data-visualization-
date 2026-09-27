@@ -34,6 +34,5 @@ meanDiff <- Smean1-Smean2
 
 lower<- meanDiff-margin
 upper<- meanDiff+margin
-
 print(sprintf("Confidence interval = (%.2f,%.2f)",lower,upper))
 
