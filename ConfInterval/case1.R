@@ -38,4 +38,6 @@ lower <- xbar - margin
 upper <- xbar + margin
 
 #% is starting of a formatting instruction. Just like C programming language
+#note: sprintf is R is used for formatting values.
+
 print(sprintf("Confidence Interval = (%.2f, %.2f)", lower, upper))
