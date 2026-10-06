@@ -10,7 +10,7 @@
 #Given
 n<-26
 Smean<-72
-PStd<-12 
+sigma<-12 
 CI = 0.95
 
 #As variance is known we will use z-distribution
@@ -23,19 +23,14 @@ CI = 0.95
 z<-qnorm(0.975)
 
 #Marginal value 
-margin<-z*(PStd/sqrt(n))
 
-#bounds
-lower<- Smean - margin
-upper<- Smean + margin
 
-#or you can just put 1.96 if you know
 z <- qnorm(0.975)
 
 margin <- z * sigma / sqrt(n)
 
-lower <- xbar - margin
-upper <- xbar + margin
+lower <- Smean - margin
+upper <- Smean + margin
 
 #% is starting of a formatting instruction. Just like C programming language
 #note: sprintf is R is used for formatting values.
