@@ -24,9 +24,6 @@ z<-qnorm(0.975)
 
 #Marginal value 
 
-
-z <- qnorm(0.975)
-
 margin <- z * sigma / sqrt(n)
 
 lower <- Smean - margin
