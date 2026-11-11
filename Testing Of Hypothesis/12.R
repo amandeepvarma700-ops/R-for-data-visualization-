@@ -1,3 +1,5 @@
+#more practice of double sample variance calculation case.
+
 # Two types of instruments for measuring the
 # amount of sulfur monoxide in the atmosphere are being
 # compared in an air-pollution experiment. Researchers
